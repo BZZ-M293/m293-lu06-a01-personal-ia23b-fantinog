@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>LU06.A01 - Personalien</title>
-  </head>
-  <body>
+</head>
+<body>
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
 
-  </body>
+    <label for="givename">Vorname</label>
+    <input id="givename" name="givename" type="text"/>
+
+    <label for="surename">Nachname</label>
+    <input id="surename" name="surename" type="text"/>
+
+    <label for="residence">Wohnort</label>
+    <input id="residence" name="residence" type="text"/>
+
+    <button type="submit">Absenden</button>
+    <button type="reset">Zurücksetzen</button>
+</form>
+</body>
 </html>
